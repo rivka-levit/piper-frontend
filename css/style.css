@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('/fonts/Roboto-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: 400 500;
+}
+
 body {
     margin: 0;
 }
@@ -11,7 +18,8 @@ nav {
 }
 
 .container {
-    width: 1219px;
+    margin: 0 auto;
+    max-width: 1219px;
     padding: 0 55px;
 }
 
@@ -23,4 +31,29 @@ nav {
 .logo img {
     display: block;
     width: 184px;
+}
+
+.menu {
+    float: right;
+    padding: 12px 0;
+}
+
+.menu-item {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu-item:not(:last-child):after {
+    content: '|';
+    color: #ffffff;
+    margin-left: 6px;
+    margin-right: 2px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto Medium", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
