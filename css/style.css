@@ -66,8 +66,9 @@ nav {
 }
 
 .jumbotron {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 403px;
     background-color: #03151f;
     background-image: url(/img/bg/jumbotron.png);
@@ -77,11 +78,7 @@ nav {
 }
 
 h1 {
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-    text-align: center;
     font-family: "Roboto Medium", sans-serif;
     font-size: 72px;
-    line-height: 403px;
+    color: #ffffff;
 }
