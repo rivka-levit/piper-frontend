@@ -5,6 +5,13 @@
     font-weight: 400 500;
 }
 
+@font-face {
+    font-family: 'Roboto Medium Italic';
+    src: url('/fonts/Roboto-MediumItalic.woff') format('woff');
+    font-style: italic;
+    font-weight: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -90,7 +97,7 @@ h1 {
 #problem {
     margin: 0;
     padding: 35px 0;
-    height: 719px;
+    min-height: 719px;
     background-color: #eee;
 }
 
@@ -115,8 +122,23 @@ h1 {
     padding: 0;
     height: 483px;
     background-color: #04204f;
+    background-image: url(/img/bg/hero.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero .container {
+    margin: 0 150px;
 }
 
 .hero p {
+    text-align: center;
     color: #ffffff;
+    font-family: 'Roboto Medium Italic', sans-serif;
+    font-size: 48px;
 }
