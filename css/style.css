@@ -12,6 +12,13 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('/fonts/Roboto-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 300 400;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -141,4 +148,34 @@ h1 {
     color: #ffffff;
     font-family: 'Roboto Medium Italic', sans-serif;
     font-size: 48px;
+}
+
+#ppc {
+    margin: 0;
+    padding: 35px 0;
+    min-height: 604px;
+}
+
+#ppc .wrapper {
+    margin-top: 20px;
+}
+
+#ppc img {
+    display: block;
+    margin: 10px 20px 10px 0;
+    width: 115px;
+    float: left;
+    text-wrap: wrap;
+}
+
+#ppc p {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    margin: 30px 0 0 0;
+}
+
+
+.clearfix {
+    clear: both;
 }
