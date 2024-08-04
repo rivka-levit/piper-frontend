@@ -10,10 +10,8 @@
     padding: 0;
 }
 
-section:target::before {
-  content: "";
-  display: block;
-  height: 83px; /* fixed header height*/
+html {
+  scroll-padding-top: 83px; /* height of sticky header */
 }
 
 header {
