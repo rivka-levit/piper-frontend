@@ -5,9 +5,15 @@
     font-weight: 400 500;
 }
 
-body {
+* {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+}
+
+section:target::before {
+  content: "";
+  display: block;
+  height: 83px; /* fixed header height*/
 }
 
 header {
@@ -42,7 +48,7 @@ nav {
 
 .menu {
     float: right;
-    padding: 12px 0 0 0;
+    padding: 26px 0 0 0;
 }
 
 .menu-item {
@@ -99,8 +105,20 @@ h1 {
 }
 
 #problem p {
-    margin-top: 8px;
+    margin-top: 10px;
+    padding: 10px;
     font-family: "Roboto Medium", sans-serif;
     font-size: 34px;
     color: #000000;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+    height: 483px;
+    background-color: #04204f;
+}
+
+.hero p {
+    color: #ffffff;
 }
