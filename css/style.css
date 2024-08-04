@@ -19,6 +19,20 @@
     font-weight: 300 400;
 }
 
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('/fonts/Roboto-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 600 700;
+}
+
+@font-face {
+    font-family: 'Roboto Italic';
+    src: url('/fonts/Roboto-Italic.woff') format('woff');
+    font-style: italic;
+    font-weight: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -117,9 +131,9 @@ h1 {
 }
 
 #problem p {
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
-    font-family: "Roboto Medium", sans-serif;
+    font-family: "Roboto Regular", sans-serif;
     font-size: 34px;
     color: #000000;
 }
@@ -178,4 +192,38 @@ h1 {
 
 .clearfix {
     clear: both;
+}
+
+#team {
+    padding: 35px 0;
+    background-color: #eeeeee;
+    min-height: 845px;
+}
+
+#team .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.card {
+    margin: 60px;
+}
+
+img.team-photo {
+    width: 168px;
+}
+
+.team-name {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 24px;
+    color: #007765;
+    text-align: center;
+}
+.team-role {
+    font-family: 'Roboto Italic', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
 }
