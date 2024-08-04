@@ -227,3 +227,20 @@ img.team-photo {
     color: #000000;
     text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 176px;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.copyrights {
+    margin: 0 300px;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
